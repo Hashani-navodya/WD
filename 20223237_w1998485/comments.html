@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments to Email</title>
+    <link rel="stylesheet" href="Cstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="SciGuru.png" class="logo" alt="logo">
+        <ul>
+            <li class="one dropdown">
+              <a href="home.html">HOME</a>
+              <div class="dropdown-content">
+                <a href="environment.html">Environment</a>
+                <a href="/cws3/astronomy/astro.html">Astronomy</a>
+                <a href="/20223255_w1987509_student01/content.html">Chemistry</a>
+              </div>
+            </li>
+            <li class="two"><a href="comments.html">COMMENTS</a></li>
+            <li class="three"><a href="/20223255_w1987509_student01/shop.html">SHOP</a></li>
+            <li class="four"><a href="/cws3/student3_quizz/index.html">QUIZ</a></li>
+            <li class="five"><a href="/cws3/AboutUs Page/AboutUs.html">ABOUT US</a></li>
+          </ul> 
+            <hr>     
+    </div>
+    <div class="container">
+        <form action="mailto:hello@gmail.com" method="post" enctype="text/plain">
+            <h3>TELL US WHAT YOU THINK!</h3>
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <div class="rating-system">
+                <h4>Rate our page</h4>
+                <input type="radio" name="star" id="star1" value="1">
+                <label for="star1"></label>
+                <input type="radio" name="star" id="star2" value="2">
+                <label for="star2"></label>
+                <input type="radio" name="star" id="star3" value="3">
+                <label for="star3"></label>
+                <input type="radio" name="star" id="star4" value="4">
+                <label for="star4"></label>
+                <input type="radio" name="star" id="star5" value="5">
+                <label for="star5"></label>
+            </div>
+            <h4>Share your experience with us!</h4>
+            <textarea id="feedback" rows="4" placeholder="Your Feedback"> </textarea>
+            <label for="favourite">Which article is your favourite?</label>
+            <select name="favourite" id="favourite">
+                <option value="environment">Environment</option>
+                <option value="chemistry">Chemistry</option>
+                <option value="astronomy">Astronomy</option>
+            </select>
+            <button type="submit">Send</button>
+        </form>
+    </div>  
+    <footer>
+        <div class="c">
+            <div class="social-media">
+            <a href="#" class="icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footer-links">
+            <a href="/cws3/AboutUs Page/AboutUs.html">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Services</a>
+            <a href="editor.html">Page Editor</a>
+            </div>
+            <p>&copy; 2023 SciGuru. All rights reserved.</p>
+        </div>
+    </footer> 
+</body>
+</html>

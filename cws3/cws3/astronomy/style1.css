@@ -1,0 +1,116 @@
+body {
+    font-family: 'Muli', sans-serif;
+    color: rgba(12, 230, 23, 0.608);
+    font-weight: 400;
+    line-height: 3.45;
+    letter-spacing: -.003em;
+    font-size: 500px;
+    padding: 0px;
+    background-color: rgba(53, 155, 198, 0.175);
+    font-size: large;
+    background-image: url('https://cdn.windowsreport.com/wp-content/uploads/2016/11/Astronomy-Stars-Telescope.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    background-color: aqua;
+    color: black;
+    grid-template: auto;
+}
+
+td, th {
+    border: 1px solid #100c0c;
+    text-align: left;
+    padding: 8px;
+  }
+
+h2{
+    color: rgb(218, 12, 105);
+}
+
+h3{
+    color: rgb(218, 12, 105);
+}
+
+p{
+    color: aliceblue;
+}
+
+h1{
+    color: rgb(247, 1, 1);
+    text-align: center;
+}
+
+
+.navbar ul{
+    list-style: none;
+    width: 100%;
+    background-color: #8a8a8c;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.navbar li{
+    display: inline-block;
+    text-align: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-weight: bold;
+    font-family: arial;
+}
+.navbar a:hover{
+    background: #010742;
+}
+
+.logo{
+    width:8%;
+    position: absolute;
+    left: 10px;
+    top: -28px;
+}
+
+footer {
+    background-color: #010742;
+    padding: 20px 0;
+  }
+  
+.c{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+.footer-links a,.c p {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff
+  }
+  
+.social-media a{
+    display: inline-block;
+    color: #333;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+  }
+.social-media a i{
+    font-size: 2em;
+    color: #010742;
+}
+
+.social-media a:hover {
+    background-color: #010742;
+    transition: 0.5s;
+}
+.social-media a:hover i{
+    background-color: white;
+    transition: 0.5s;
+}

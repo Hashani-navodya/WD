@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Editor</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+        body{
+            background-color: #136795;
+        }
+        .container{
+            background-color: #8a8a8c;
+            color: white;
+            height: 100vh;
+            width: 70%;
+            margin-left: 200px;
+            text-align: center;
+            border-radius: 20px;
+        }
+        .content{
+            width: 600px;
+            margin-left: 200px;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            margin-right:120px ;
+            padding: 30px;
+        }
+        h3{
+            padding-top: 50px;
+            font-size: 20px;
+        }
+        p{
+            font-size: 17px;
+        }
+        /*designing the navbar */
+        .navbar ul{
+            list-style: none;
+            width: 100%;
+            background-color: #8a8a8c;
+            padding: 0;
+            margin: 0;
+            text-align: right;
+        }
+        .navbar li{
+            display: inline-block;
+            text-align: center;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: #fff;
+            width: 100px;
+            display: block;
+            padding: 25px 20px;
+            font-weight: bold;
+            font-family: arial;
+        }
+        .navbar a:hover{
+            background: #010742;
+        }
+        /*header logo*/
+        .logo{
+            width:8%;
+            position: absolute;
+            left: 10px;
+            top: -28px;
+        }
+        /*dropdown menu*/
+        .navbar .dropdown {
+            position: relative;
+        }
+
+        .navbar .dropdown .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #b8b8bc;
+            min-width: 100px;
+            z-index: 1;
+        }
+
+        .navbar .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .navbar .dropdown-content a {
+            color: #121212;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .navbar .dropdown-content a:hover {
+            background-color: #155a97;
+        }
+
+        /*active page*/
+        .navbar a.active {
+            background: #010742;
+        }
+
+        .logo {
+            width: 8%;
+            position: absolute;
+            left: 10px;
+            top: -28px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="SciGuru.png" class="logo" alt="logo">
+        <ul>
+            <li class="one dropdown">
+              <a href="home.html">HOME</a>
+              <div class="dropdown-content">
+                <a href="environment.html">Environment</a>
+                <a href="/cws3/astronomy/astro.html">Astronomy</a>
+                <a href="/20223255_w1987509_student01/content.html">Chemistry</a>
+              </div>
+            </li>
+            <li class="two"><a href="comments.html">COMMENTS</a></li>
+            <li class="three"><a href="/20223255_w1987509_student01/shop.html">SHOP</a></li>
+            <li class="four"><a href="/cws3/student3_quizz/index.html">QUIZ</a></li>
+            <li class="five"><a href="/cws3/AboutUs Page/AboutUs.html">ABOUT US</a></li>
+          </ul> 
+            <hr>
+    </div>
+    <h1>PAGE EDITOR</h1>
+    <div class="container">
+        <div class="content">
+            <h3>Home Page</h3>
+            <p>Created a home page with a navbar and a footer.Used html and css.Added hover effect.Connected pages using anchor tags.</p>    
+            <a href="home.html">link to Home</a>
+            <h3>Comment Page</h3>
+            <p>Created a comment page using HTML,CSS and JS. Including radio buttons,pop up list, textarea , placeholders.used javascrip to get the details to an email address.</p>    
+            <a href="comments.html">link to Comment</a>
+            <h3>Page Editor</h3>
+            <p>Created the page using html and css which tells about the person who made about the oage.</p>    
+            <h3>Environment</h3>
+            <p>Created an article named Environment which includes facts about environment with science. used html and css. video background, hover effect and some transition effects. </p>    
+            <a href="environment.html">link to Environment</a>
+        </div>
+    </div>
+</body>
+</html>

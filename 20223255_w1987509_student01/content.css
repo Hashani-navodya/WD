@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://th.bing.com/th/id/R.5b87b67518479d4d0c59ea2827654286?rik=BqBpNRWZXurXvg&riu=http%3a%2f%2fwww.baltana.com%2ffiles%2fwallpapers-5%2fBlue-Background-HD-Wallpapers-16268.jpg&ehk=x4FzwF%2b%2bvJT%2bCqQnQQ3F2WJNox2krUo5nSCPbbYvEIk%3d&risl=&pid=ImgRaw&r=0);
+}
+
+/*designing the navbar */
+
+.navbar ul {
+    list-style: none;
+    width: 100%;
+    background-color: #8a8a8c;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.navbar li {
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.navbar a:hover {
+    background: #010742;
+}
+
+.logo {
+    width: 5%;
+    height: 70px;
+    position: absolute;
+    left: 10px;
+    top: 3px;
+}
+
+
+.header {
+    color: #010742;
+    padding: 15px;
+    font-size: 28px;
+}
+
+.column {
+    padding: 15px;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    height: 380px;
+    width: 500px;
+}
+
+.menu {
+    width: 25%;
+}
+
+.content {
+    width: 95%;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.menu li {
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    font-size: 22px;
+    border-radius: 35px;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    background-color: #010742;
+    padding: 20px 0;
+}
+
+.c {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-links a,
+.c p {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff
+}
+
+.social-media a {
+    display: inline-block;
+    color: #333;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-media a i {
+    font-size: 2em;
+    color: #010742;
+}
+
+.social-media a:hover {
+    background-color: #010742;
+    transition: 0.5s;
+}
+
+.social-media a:hover i {
+    background-color: white;
+    transition: 0.5s;
+}
